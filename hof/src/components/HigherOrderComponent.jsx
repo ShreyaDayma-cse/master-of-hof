@@ -21,9 +21,9 @@ class HigherOrderComponent extends React.Component {
         const mapRows = data.map((value) => 
             <div key={value.id}>
                 <li className="list-elements">
-                    <span>Id: {value.id}</span>
-                    <span>Name : {value.name}</span>
-                    <span>User Type: {value.user_type}</span>
+                    <span>Id: {value.id}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>Name : {value.name}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>User Type: {value.user_type}&emsp;&emsp;&emsp;&emsp;</span>
                 </li>
             </div>
         )
@@ -36,9 +36,9 @@ class HigherOrderComponent extends React.Component {
         .map((value) => 
             <div key={value.id}>
                 <li className="list-elements">
-                    <span>Id: {value.id}</span>
-                    <span>Name : {value.name}</span>
-                    <span>User Type: {value.user_type}</span>
+                    <span>Id: {value.id}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>Name : {value.name}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>User Type: {value.user_type}&emsp;&emsp;&emsp;&emsp;</span>
                 </li>
             </div>
         )
@@ -51,9 +51,9 @@ class HigherOrderComponent extends React.Component {
         .map((value) => 
             <div key={value.id}>
                 <li className="list-elements">
-                    <span>Id: {value.id}</span>
-                    <span>Name : {value.name}</span>
-                    <span>User Type: {value.user_type}</span>
+                    <span>Id: {value.id}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>Name : {value.name}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>User Type: {value.user_type}&emsp;&emsp;&emsp;&emsp;</span>
                 </li>
             </div>
         )
@@ -66,9 +66,9 @@ class HigherOrderComponent extends React.Component {
         .map((value)=>
             <div key={value.id}>
                 <li className="list-elements">
-                    <span>Id: {value.id}</span>
-                    <span>Name : {value.name}</span>
-                    <span>User Type: {value.user_type}</span>
+                    <span>Id: {value.id}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>Name : {value.name}&emsp;&emsp;&emsp;&emsp;</span>
+                    <span>User Type: {value.user_type}&emsp;&emsp;&emsp;&emsp;</span>
                 </li>
             </div>
         )
